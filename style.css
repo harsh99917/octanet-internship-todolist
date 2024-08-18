@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     background-color: #ffefef;
@@ -20,7 +20,6 @@ h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-/* Input Field */
 input[type="text"] {
     width: calc(100% - 22px);
     padding: 15px;
@@ -38,7 +37,6 @@ input[type="text"]:focus {
     background-color: #ffefef;
 }
 
-/* Add Task Button */
 button {
     width: 100%;
     padding: 15px;
@@ -51,7 +49,6 @@ button {
     cursor: pointer;
 }
 
-/* Task List */
 ul {
     list-style-type: none;
     padding: 0;
@@ -76,7 +73,6 @@ li.completed {
     color: #ffffff;
 }
 
-/* Edit and Delete Buttons */
 .delete-btn, .edit-btn {
     background-color: transparent;
     color: #ffffff;
