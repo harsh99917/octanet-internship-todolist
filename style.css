@@ -1,0 +1,96 @@
+/* General Styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #ffefef;
+    color: #333;
+    max-width: 450px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    background-image: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Input Field */
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 2px solid #ddd;
+    border-radius: 25px;
+    font-size: 1em;
+    background-color: #ffffff;
+    color: #333;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #fda085;
+    background-color: #ffefef;
+}
+
+/* Add Task Button */
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #f06c64;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Task List */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    background-color: #ffd3b5;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #f06c64;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+li.completed {
+    text-decoration: line-through;
+    background-color: #8bd3dd;
+    color: #ffffff;
+}
+
+/* Edit and Delete Buttons */
+.delete-btn, .edit-btn {
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+    font-size: 0.8em;
+    cursor: pointer;
+    padding: 3px 6px;
+    border-radius: 50%;
+}
+
+.edit-btn {
+    background-color: #f9c74f;
+}
+
+.delete-btn {
+    background-color: #f94144;
+}
